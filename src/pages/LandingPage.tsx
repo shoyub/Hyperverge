@@ -21,7 +21,7 @@ export const LandingPage: React.FC = () => {
   };
 
   const startWithVoice = () => {
-    navigate('/onboarding?mode=voice');
+    navigate('/assistant?mode=voice');
   };
 
   const startWithText = () => {
@@ -70,7 +70,7 @@ export const LandingPage: React.FC = () => {
                   <div className="text-left">
                     <div className="font-semibold">{i18n.t('startVoice')}</div>
                     <div className="text-sm opacity-80">
-                      {currentLang === 'hi' ? 'बोलकर शुरू करें' : 'Speak to get started'}
+                      {currentLang === 'hi' ? 'AI के साथ हिंदी में बात करें' : 'Chat with AI in Hindi'}
                     </div>
                   </div>
                 </Button>
@@ -89,7 +89,7 @@ export const LandingPage: React.FC = () => {
                   <div className="text-left">
                     <div className="font-semibold">{i18n.t('startText')}</div>
                     <div className="text-sm opacity-80">
-                      {currentLang === 'hi' ? 'टाइप करके शुरू करें' : 'Type to get started'}
+                      {currentLang === 'hi' ? 'नॉर्मल प्रोसेस से आगे बढ़ें' : 'Continue with normal process'}
                     </div>
                   </div>
                 </Button>
