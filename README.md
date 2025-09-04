@@ -1,4 +1,4 @@
-# QuickLoan Assistant - AI-Enabled Loan Underwriting
+# Sahaj Loan - AI-Enabled Loan Underwriting
 
 A production-ready web prototype for AI-powered loan underwriting targeting rural and semi-urban India. Built with React, TypeScript, and offline-first architecture.
 
@@ -52,6 +52,7 @@ npm run preview
 ## 📊 AI Underwriting Logic
 
 The mock AI analyzes:
+
 - **Income Patterns**: Regular credit transactions
 - **Account Stability**: Average balance, volatility
 - **Cash Flow**: Credit-to-debit ratios

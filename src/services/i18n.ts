@@ -8,14 +8,14 @@ export interface Translations {
   loading: string;
   error: string;
   retry: string;
-  
+
   // Landing Page
   appTitle: string;
   tagline: string;
   startVoice: string;
   startText: string;
   selectLanguage: string;
-  
+
   // Onboarding
   easyTitle: string;
   easyDesc: string;
@@ -24,12 +24,12 @@ export interface Translations {
   privateTitle: string;
   privateDesc: string;
   getStarted: string;
-  
+
   // Consent
   consentTitle: string;
   consentText: string;
   agreeTerms: string;
-  
+
   // Profile
   profileTitle: string;
   yourName: string;
@@ -48,7 +48,7 @@ export interface Translations {
   incomePlaceholder: string;
   locality: string;
   localityPlaceholder: string;
-  
+
   // Documents
   documentsTitle: string;
   uploadPAN: string;
@@ -58,7 +58,7 @@ export interface Translations {
   pasteSMS: string;
   uploadStatement: string;
   statementHelper: string;
-  
+
   // Eligibility
   eligibilityTitle: string;
   yourScore: string;
@@ -68,12 +68,12 @@ export interface Translations {
   explainScore: string;
   adjustLoan: string;
   proceedLoan: string;
-  
+
   // Voice
   voicePrompt: string;
   listening: string;
   processing: string;
-  
+
   // Errors & Offline
   offline: string;
   offlineMessage: string;
@@ -90,14 +90,14 @@ const englishTranslations: Translations = {
   loading: "Loading...",
   error: "Error",
   retry: "Retry",
-  
+
   // Landing Page
-  appTitle: "QuickLoan Assistant",
+  appTitle: "Sahaj Loan",
   tagline: "Get instant loan approval with AI guidance",
   startVoice: "Start with Voice",
   startText: "Start with Text",
   selectLanguage: "Select Language",
-  
+
   // Onboarding
   easyTitle: "Easy Process",
   easyDesc: "Simple steps, guided by AI",
@@ -106,12 +106,13 @@ const englishTranslations: Translations = {
   privateTitle: "Your Privacy",
   privateDesc: "Data stays secure on your device",
   getStarted: "Get Started",
-  
+
   // Consent
   consentTitle: "Privacy & Consent",
-  consentText: "We'll use your data only to assess loan eligibility. Your information stays private and secure.",
+  consentText:
+    "We'll use your data only to assess loan eligibility. Your information stays private and secure.",
   agreeTerms: "I agree to the terms",
-  
+
   // Profile
   profileTitle: "Tell us about yourself",
   yourName: "Your full name",
@@ -124,13 +125,13 @@ const englishTranslations: Translations = {
     driver: "Driver",
     worker: "Daily Worker",
     teacher: "Teacher/Govt Job",
-    other: "Other"
+    other: "Other",
   },
   monthlyIncome: "Monthly income (optional)",
   incomePlaceholder: "₹15,000",
   locality: "Your area/village",
   localityPlaceholder: "Enter locality name",
-  
+
   // Documents
   documentsTitle: "Upload Documents",
   uploadPAN: "Upload PAN Card",
@@ -140,7 +141,7 @@ const englishTranslations: Translations = {
   pasteSMS: "Paste bank SMS here...",
   uploadStatement: "Bank Statement (Optional)",
   statementHelper: "Upload PDF statement for better accuracy",
-  
+
   // Eligibility
   eligibilityTitle: "Your Loan Eligibility",
   yourScore: "Your Score",
@@ -150,17 +151,18 @@ const englishTranslations: Translations = {
   explainScore: "Score based on regular income patterns and account stability",
   adjustLoan: "Adjust Loan",
   proceedLoan: "Proceed with Loan",
-  
+
   // Voice
   voicePrompt: "Tap to speak, I'm listening...",
   listening: "Listening...",
   processing: "Processing...",
-  
+
   // Errors & Offline
   offline: "No Internet",
-  offlineMessage: "Don't worry! We'll save your progress and submit when you're back online.",
+  offlineMessage:
+    "Don't worry! We'll save your progress and submit when you're back online.",
   connectionRestored: "Connection restored! Syncing data...",
-  uploadError: "Upload failed. Please try again."
+  uploadError: "Upload failed. Please try again.",
 };
 
 const hindiTranslations: Translations = {
@@ -172,14 +174,14 @@ const hindiTranslations: Translations = {
   loading: "लोड हो रहा है...",
   error: "गलती",
   retry: "फिर से कोशिश करें",
-  
+
   // Landing Page
   appTitle: "त्वरित लोन सहायक",
   tagline: "AI गाइडेंस के साथ तुरंत लोन की मंजूरी पाएं",
   startVoice: "आवाज़ के साथ शुरू करें",
   startText: "टेक्स्ट के साथ शुरू करें",
   selectLanguage: "भाषा चुनें",
-  
+
   // Onboarding
   easyTitle: "आसान प्रक्रिया",
   easyDesc: "सरल चरण, AI द्वारा निर्देशित",
@@ -188,12 +190,13 @@ const hindiTranslations: Translations = {
   privateTitle: "आपकी गोपनीयता",
   privateDesc: "डेटा आपके डिवाइस पर ही सुरक्षित रहता है",
   getStarted: "शुरू करें",
-  
+
   // Consent
   consentTitle: "गोपनीयता और सहमति",
-  consentText: "हम आपका डेटा केवल लोन योग्यता के आकलन के लिए उपयोग करेंगे। आपकी जानकारी निजी और सुरक्षित रहती है।",
+  consentText:
+    "हम आपका डेटा केवल लोन योग्यता के आकलन के लिए उपयोग करेंगे। आपकी जानकारी निजी और सुरक्षित रहती है।",
   agreeTerms: "मैं नियमों से सहमत हूं",
-  
+
   // Profile
   profileTitle: "अपने बारे में बताएं",
   yourName: "आपका पूरा नाम",
@@ -206,13 +209,13 @@ const hindiTranslations: Translations = {
     driver: "ड्राइवर",
     worker: "मजदूर",
     teacher: "शिक्षक/सरकारी नौकरी",
-    other: "अन्य"
+    other: "अन्य",
   },
   monthlyIncome: "मासिक आय (वैकल्पिक)",
   incomePlaceholder: "₹15,000",
   locality: "आपका क्षेत्र/गांव",
   localityPlaceholder: "क्षेत्र का नाम दर्ज करें",
-  
+
   // Documents
   documentsTitle: "दस्तावेज़ अपलोड करें",
   uploadPAN: "PAN कार्ड अपलोड करें",
@@ -222,7 +225,7 @@ const hindiTranslations: Translations = {
   pasteSMS: "बैंक SMS यहाँ पेस्ट करें...",
   uploadStatement: "बैंक स्टेटमेंट (वैकल्पिक)",
   statementHelper: "बेहतर सटीकता के लिए PDF स्टेटमेंट अपलोड करें",
-  
+
   // Eligibility
   eligibilityTitle: "आपकी लोन योग्यता",
   yourScore: "आपका स्कोर",
@@ -232,31 +235,32 @@ const hindiTranslations: Translations = {
   explainScore: "स्कोर नियमित आय पैटर्न और खाता स्थिरता पर आधारित",
   adjustLoan: "लोन समायोजित करें",
   proceedLoan: "लोन के साथ आगे बढ़ें",
-  
+
   // Voice
   voicePrompt: "बोलने के लिए टैप करें, मैं सुन रहा हूं...",
   listening: "सुन रहा है...",
   processing: "प्रोसेसिंग...",
-  
+
   // Errors & Offline
   offline: "इंटरनेट नहीं",
-  offlineMessage: "चिंता न करें! हम आपकी प्रगति सेव करेंगे और जब आप ऑनलाइन होंगे तो सबमिट कर देंगे।",
+  offlineMessage:
+    "चिंता न करें! हम आपकी प्रगति सेव करेंगे और जब आप ऑनलाइन होंगे तो सबमिट कर देंगे।",
   connectionRestored: "कनेक्शन बहाल! डेटा सिंक हो रहा है...",
-  uploadError: "अपलोड फेल हो गया। कृपया फिर से कोशिश करें।"
+  uploadError: "अपलोड फेल हो गया। कृपया फिर से कोशिश करें।",
 };
 
-export type Language = 'en' | 'hi';
+export type Language = "en" | "hi";
 
 class I18nService {
-  private currentLanguage: Language = 'en';
+  private currentLanguage: Language = "en";
   private translations = {
     en: englishTranslations,
-    hi: hindiTranslations
+    hi: hindiTranslations,
   };
 
   setLanguage(lang: Language) {
     this.currentLanguage = lang;
-    localStorage.setItem('preferred-language', lang);
+    localStorage.setItem("preferred-language", lang);
   }
 
   getLanguage(): Language {
@@ -264,26 +268,26 @@ class I18nService {
   }
 
   t(key: string): string {
-    const keys = key.split('.');
+    const keys = key.split(".");
     let value: any = this.translations[this.currentLanguage];
-    
+
     for (const k of keys) {
       value = value?.[k];
     }
-    
+
     return value || key.toString();
   }
 
   // Initialize language from storage or browser
   init() {
-    const stored = localStorage.getItem('preferred-language') as Language;
-    if (stored && (stored === 'en' || stored === 'hi')) {
+    const stored = localStorage.getItem("preferred-language") as Language;
+    if (stored && (stored === "en" || stored === "hi")) {
       this.currentLanguage = stored;
     } else {
       // Detect browser language
       const browserLang = navigator.language.toLowerCase();
-      if (browserLang.startsWith('hi')) {
-        this.currentLanguage = 'hi';
+      if (browserLang.startsWith("hi")) {
+        this.currentLanguage = "hi";
       }
     }
   }

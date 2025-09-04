@@ -1,6 +1,6 @@
 {
-  "name": "QuickLoan Assistant",
-  "short_name": "QuickLoan",
+  "name": "Sahaj Loan",
+  "short_name": "Sahaj Loan",
   "description": "AI-powered loan underwriting assistant for rural India",
   "start_url": "/",
   "display": "standalone",
