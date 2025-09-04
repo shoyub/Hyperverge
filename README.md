@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+# QuickLoan Assistant - AI-Enabled Loan Underwriting
 
-## Project info
+A production-ready web prototype for AI-powered loan underwriting targeting rural and semi-urban India. Built with React, TypeScript, and offline-first architecture.
 
-**URL**: https://lovable.dev/projects/05c72cd1-5664-44f4-bcdd-b39580f51b53
+## 🚀 Features
 
-## How can I edit this code?
+- **🎤 Voice-First Interface** - Hindi voice support with Web Speech API
+- **📱 Mobile-Optimized** - Large buttons, clear typography, step-by-step guidance
+- **🌐 Offline-First** - Works without internet, auto-syncs when online
+- **🔐 Privacy-Focused** - All data stored locally, no external tracking
+- **🤖 AI Underwriting** - Mock intelligent loan scoring based on SMS analysis
+- **📄 Document Upload** - PAN card capture with auto-compression
+- **💰 Real-time EMI Calculator** - Instant loan terms calculation
+- **🌍 Multi-language** - English and Hindi support
 
-There are several ways of editing your application.
+## 🏗️ Tech Stack
 
-**Use Lovable**
+- **Frontend**: React 18, TypeScript, Tailwind CSS
+- **Routing**: React Router v6
+- **Storage**: LocalStorage + IndexedDB for offline data
+- **Voice**: Web Speech API (STT/TTS)
+- **PWA**: Service Worker ready, offline-first
+- **Components**: Shadcn/ui with custom variants
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/05c72cd1-5664-44f4-bcdd-b39580f51b53) and start prompting.
+## 📋 User Journey
 
-Changes made via Lovable will be committed automatically to this repo.
+1. **Landing** - Language selection, voice/text mode choice
+2. **Onboarding** - 3-step introduction with privacy focus
+3. **Consent** - Clear data usage explanation
+4. **Profile** - Basic info collection (name, occupation, income)
+5. **Documents** - PAN upload + bank SMS parsing
+6. **Eligibility** - AI scoring with explainable results
+7. **Terms** - Loan details with EMI breakdown
+8. **Status** - Application confirmation
 
-**Use your preferred IDE**
+## 🛠️ Setup & Development
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+# Install dependencies
+npm install
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## 📊 AI Underwriting Logic
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The mock AI analyzes:
+- **Income Patterns**: Regular credit transactions
+- **Account Stability**: Average balance, volatility
+- **Cash Flow**: Credit-to-debit ratios
+- **Profile Factors**: Occupation, declared income consistency
 
-**Use GitHub Codespaces**
+Scoring ranges from 0-100 with eligibility from ₹5,000 to ₹50,000.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎯 Demo Features
 
-## What technologies are used for this project?
+- **Sample SMS Data** - Pre-loaded bank transaction examples
+- **Offline Testing** - Disconnect internet to test offline flows
+- **Voice Commands** - Try Hindi voice input on supported browsers
+- **Mobile Simulation** - Best experienced on mobile viewport
 
-This project is built with:
+## 🔒 Privacy & Security
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Local-First**: No data leaves the device
+- **No Tracking**: No analytics or external services
+- **Data Control**: Easy data deletion option
+- **Demo Safe**: No real financial processing
 
-## How can I deploy this project?
+## 📱 PWA Support
 
-Simply open [Lovable](https://lovable.dev/projects/05c72cd1-5664-44f4-bcdd-b39580f51b53) and click on Share -> Publish.
+- Offline functionality after first load
+- Install prompt on mobile devices
+- Background sync for pending operations
+- App-like experience
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Built with ❤️ for rural India's financial inclusion.
